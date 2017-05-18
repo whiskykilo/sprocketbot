@@ -33,29 +33,29 @@ Install by follow [These Docs](https://docs.docker.com/machine/install-machine/)
 
 ### Create API Token in Slack
 
-1. Click on Team Name in your Slack application
+*1. Click on Team Name in your Slack application*
 
 ![IMG](_images/readme00.png)
 
-2. Click `Apps & Integrations`
+*2. Click `Apps & Integrations`*
 
-3. Search for `bots`
+*3. Search for `bots`*
 
 ![IMG](_images/readme01.png)
 
-4. Click `Add Configuration`
+*4. Click `Add Configuration`*
 
 ![IMG](_images/readme02.png)
 
-5. Name your bot and `Add bot integration`
+*5. Name your bot and `Add bot integration`*
 
 ![IMG](_images/readme03.png)
 
-6. Grab API Token
+*6. Grab API Token*
 
 ![IMG](_images/readme04.png)
 
-7. Give your bot some love - a profile image, a name, etc
+*7. Give your bot some love - a profile image, a name, etc*
 
 ### Create `.env`
 
