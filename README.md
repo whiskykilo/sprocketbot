@@ -25,7 +25,7 @@ I have only tested the deployment of `docker-machine` from a Mac to an Ubuntu 16
 
 ### Install `docker-machine`
 
-Install by follow [These Docs](https://docs.docker.com/machine/install-machine/)
+Install by following [These Docs](https://docs.docker.com/machine/install-machine/)
 
 ### Clone this repository
 
