@@ -8,7 +8,11 @@ I have only tested the deployment of `docker-machine` from a Mac to an Ubuntu 16
 
 ### TODO, FEATS, and BUGS
 
-TODO - FEATS and BUGS are maintained [here](TODO.md) for now. This will be moved to Trello in the short term.
+TODO - FEATS and BUGS are maintained [here](_docs/TODO.md) for now. This will be moved to Trello in the short term.
+
+### Capabilities
+
+An up to date walkthrough of the capabilities of the bot are [here](_docs/FEATS.md)
 
 ### Requirements
 
