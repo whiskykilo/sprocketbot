@@ -7,7 +7,7 @@
 - [ ] Basic Cluster Commands (vms, containers, networks, etc)
 - [ ] Cluster Tasks
 - [ ] Cluster Alerts
-- [ ] Redis Storage
+- [ ] MongoDB Storage
 - [ ] Authentication - What users are allowed to manage what cluster
 - [ ] Multi-Cluster Authentication/Support (Prism Central?)
 - [ ] ESXi Support

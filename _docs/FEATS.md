@@ -2,7 +2,7 @@
 
 Below is an attempt at describing the current features of the slackbot. The format below will show all of the commands that the bot listens for and in what context.
 
-## Implemented Commands
+## Implemented Commands/Logic
 
 These commands are implemented in the slackbot, in any form. They will be continuously improved over time.
 
