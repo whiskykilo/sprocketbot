@@ -6,6 +6,10 @@ This is a work in progress and *will* have bugs. It currently does not function 
 
 I have only tested the deployment of `docker-machine` from a Mac to an Ubuntu 16.04 server. If you're running Windows, please let me know how it goes.
 
+### TODO, FEATS, and BUGS
+
+TODO - FEATS and BUGS are maintained [here](TODO.md) for now. This will be moved to Trello in the short term.
+
 ### Requirements
 
 * [docker-machine](https://docs.docker.com/machine/install-machine/) installed on your local machine
