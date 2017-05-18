@@ -16,6 +16,8 @@ These commands are currently being developed and are in testing.
 
 `@sprocket get vms` | `@sprocket list vms` :: `direct_message,direct_mention,mention`
 
+*Example:*
+
 ```
 user: @sprocket get vms
 sprocket: There are 2 registered clusters, which cluster would you like to query?
@@ -29,6 +31,8 @@ sprocket: Ok!
 ```
 
 `@sprocket poweroff vm` | `@sprocket shutdown vm` :: `direct_message,direct_mention,mention`
+
+*Example:*
 
 ```
 user: @sprocket poweroff vm
