@@ -1,6 +1,6 @@
-// whiskykilo
-// last updated 5/17/17
-// nutanix-bot
+// @sprocket
+// Nutanix Slackbot
+// Maintained by: whiskykilo
 
 // ************************************************************************** //
 // Botkit Instantiation

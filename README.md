@@ -1,8 +1,13 @@
-# @Sprocket the Nutanix Slackbot
+# @sprocket the Nutanix Slackbot
 
 Utilizing the brilliant [botkit](https://github.com/howdyai/botkit) framework and the Nutanix APIs, you are now able to control your Nutanix cluster from a slack channel.
 
 This is a work in progress and *will* have bugs. It currently does not function in any capacity worth running.
+
+## USER ASSUMES ALL RISKS
+*This is open sourced code, not a Nutanix supported product.*
+
+There is essentially **no security** built into the bot at this moment. It is a priority feature that will begin development soon. Currently any person that can DM the slackbot has the ability to run commands as an admin against your cluster.
 
 I have only tested the deployment of `docker-machine` from a Mac to an Ubuntu 16.04 server. If you're running Windows, please let me know how it goes.
 
@@ -13,6 +18,8 @@ TODO - FEATS and BUGS are maintained on [Trello](https://trello.com/b/3BzM1QoD).
 ### Capabilities
 
 An up to date walkthrough of the capabilities of the bot are [here](_docs/FEATS.md)
+
+The @sprocket is currently being developed using Nutanix CE and Nutanix AHV. Some commands may work with ESXi or Hyper-V, but there has been no testing with those hypervisors.
 
 ### Requirements
 

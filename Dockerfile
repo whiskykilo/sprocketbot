@@ -1,6 +1,6 @@
-# whiskykilo
-# last updated: 5/17/17
-# usage: docker run --name sprocketbot01 sprocketbot
+# @sprocket
+# Nutanix Slackbot
+# Maintained by: whiskykilo
 
 FROM bottato/botkit
 
