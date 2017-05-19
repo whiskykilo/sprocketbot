@@ -1,5 +1,9 @@
 # @sprocket TODO
 
+# **DEPRACATED**
+
+Please go to [Trello](https://trello.com/b/3BzM1QoD) to see the currently TODOs and BUGS
+
 ## BUGS
 - [ ] Function outputs in conversations do not return results to bot.say();
 
@@ -17,3 +21,5 @@
 - [ ] Logging via Syslog
 - [ ] Logging via GELF
 - [ ] Cluster performance stats
+- [ ] Prism Pro xFit algorithms for runway info
+- [ ] Extra Snark mode on/off (default to off)

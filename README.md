@@ -8,7 +8,7 @@ I have only tested the deployment of `docker-machine` from a Mac to an Ubuntu 16
 
 ### TODO, FEATS, and BUGS
 
-TODO - FEATS and BUGS are maintained [here](_docs/TODO.md) for now. This will be moved to Trello in the short term.
+TODO - FEATS and BUGS are maintained on [Trello](https://trello.com/b/3BzM1QoD). Feel free to comment and make requests.
 
 ### Capabilities
 
