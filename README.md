@@ -1,6 +1,6 @@
 # @sprocket the Nutanix Slackbot
 
-Utilizing the brilliant [botkit](https://github.com/howdyai/botkit) framework and the Nutanix APIs, you are now able to control your Nutanix cluster from a slack channel.
+Utilizing the brilliant [botkit](https://github.com/howdyai/botkit) framework, the [nutanix_prism](https://www.npmjs.com/package/nutanix_prism) package written by Wade Perrigo, and the Nutanix APIs, you are now able to control your Nutanix cluster from a slack channel.
 
 This is a work in progress and *will* have bugs. It currently does not function in any capacity worth running.
 
@@ -13,7 +13,7 @@ I have only tested the deployment of `docker-machine` from a Mac to an Ubuntu 16
 
 ### TODO, FEATS, and BUGS
 
-TODO - FEATS and BUGS are maintained on [Trello](https://trello.com/b/3BzM1QoD). Feel free to comment and make requests.
+FEATS and BUGS are maintained on [Trello](https://trello.com/b/3BzM1QoD). Feel free to comment and make requests.
 
 ### Capabilities
 
@@ -87,7 +87,7 @@ You need a few things to make sure everything works in the `docker-machine creat
 * The user must have `ALL=(ALL) NOPASSWD:ALL` attritube assigned to it (Put at the bottom of `sudo visudo`)
 * Your public key must be available on the remote docker host to enable the automated installation of docker `ssh-copy-id user@ipaddress`
 
-On your local machine's terminal issue the following command:
+On your local machine's terminal issue the following command (substitute the username you want to connect as and substitute the name of the docker host machine at the end after the `ssh-port`):
 
 `docker-machine create -d generic --generic-ip-address 10.68.69.11 --generic-ssh-key $HOME/.ssh/id_rsa --generic-ssh-user sprocket --generic-ssh-port 22 sprocket`
 
@@ -109,7 +109,7 @@ This command will compile your docker container on the docker host.
 
 Assuming all of the above commands have completed successfully, you should now be able to deploy the docker container and the bot will connect to slack.
 
-I have put a couple of different options for running this command down below:
+I have put a couple of different options for running @sprocket down below:
 
 *Option 1 - Debugging*
 This should be used to test your bot for debugging purposes. It will output all of the debug info from the slackbot into your console.
